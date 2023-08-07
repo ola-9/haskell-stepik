@@ -7,6 +7,12 @@
     functionName
     :realod ModuleName
     :quit
+
+
+    :! clear -- to clear terminal screen
+
+    :i <thing-you-want-info-about>
+    :info ++ s
 -}
 
 module Intro where

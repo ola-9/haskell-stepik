@@ -1,3 +1,6 @@
+-- Module 1. Intro
+-- 1.5 Recursion
+
 module Recursion where
 
 -- 1) Рекурсивное определение функции
@@ -164,7 +167,6 @@ long factorial (int n) {
 factorial5 n | n >= 0 = helper 1 n -- n - число для которого считаем факториал
              | otherwise = error "arg must be >= 0"
 
-helper :: (Eq t, Num t) => t -> t -> t
 helper acc 0 = acc -- 1) терминирующее условие: если ноль, но возвращаем аккумулятор
 helper acc n = helper (acc * n) (n - 1) -- 2) функция вызывается на другом значении 
 
@@ -203,5 +205,6 @@ helper' n a b | n >=0 = helper' (n - 1) b (a + b)
               | otherwise = helper' (n + 1) b (a - b)
 
 -- helper' n a b = if n >= 0 then helper' (n - 1) b (a + b) else helper' (n + 1) b (a - b)
+fib' :: (Ord t1, Num t1, Num t2) => t1 -> t2
 fib' n = helper' n 0 1
 -- fib'3 (-3)

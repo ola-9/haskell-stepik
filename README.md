@@ -1,6 +1,30 @@
 ## Функциональное программирование на [Haskell](https://www.haskell.org/) by [Stepik](https://stepik.org/course/75/info)
 
 Данный  репозиторий содержит резюме ключевых идей из курса с примерами кода, а также решения практических задач.
+### 1. Введение
+- [1.1 Intro](./src/Intro.hs)
+- [1.2 Functions](./src/Functions.hs)
+- [1.3 Operatiors](./src/Operators.hs)
+- [1.4 Basic Types](./src/BasicTypes.hs)
+- [1.5 Recursion](./src/Recursion.hs)
+- [1.6 Локальные связывания и правила отступов](./src/Binding.hs)
+
+### 2. Основы программирования
+- [2.1 Параметрический полиморфизм](./src/Polymorphism.hs)
+- [2.2 Параметрический полиморфизм](./src/Polymorphism2.hs)
+- [2.3 Классы типов](./src/TypeClasses.hs)
+- [2.4 Стандартные классы типов](./src/StandardTypeClasses.hs)
+- [2.5 Нестрогая семантика](./src/Semantics.hs)
+- [2.6 Модули и компиляция](./src/Modules.hs)
+
+### 3 Списки
+...
+
+### 4 Типы данных
+...
+
+### 5 Монады
+... 
 
 ### Docs:
 * [Текущий стандарт](https://www.haskell.org/onlinereport/haskell2010/)

@@ -212,6 +212,5 @@ helper' n a b | n >=0 = helper' (n - 1) b (a + b)
               | otherwise = helper' (n + 1) b (a - b)
 
 -- helper' n a b = if n >= 0 then helper' (n - 1) b (a + b) else helper' (n + 1) b (a - b)
-fib' :: (Ord t1, Num t1, Num t2) => t1 -> t2
 fib' n = helper' n 0 1
 -- fib'3 (-3)

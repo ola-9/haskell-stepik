@@ -6,7 +6,7 @@ import Prelude hiding (length, (++), null, last, init,
     take, drop, splitAt, (!!))
 
 
--- Module 3. Intro
+-- Module 3. Lists
 -- 3.1 List Functions
 
 -- 1) Конструирование списков
